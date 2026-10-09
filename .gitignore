@@ -1,0 +1,39 @@
+# Python / environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Videos and images (inputs, frames and outputs)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+frames_to_label/
+
+# Dataset archives and raw downloads
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Datasets and generated folders
+dataset/
+dataset_raw/
+dataset_raw_prelabels/
+dataset_general/
+export/
+runs/
+Ultralytics/
+
+# Downloadable pretrained base weights (your own trained vehicle_*.pt are kept)
+yolo11*.pt
+yolov8*.pt
+
+# Logs
+*.log
